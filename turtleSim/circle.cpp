@@ -11,7 +11,7 @@ forward(100);
 left(90);
 penDown();
 
-//circle
+//circle using ifinite sides
 repeat(30){
 forward(30);
 
