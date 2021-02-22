@@ -1,0 +1,20 @@
+#include <simplecpp>
+void dash(double d, int n){
+repeat(n){
+forward(d/2/n);
+penUp();
+forward(d/2/n);
+penDown();
+}
+return;
+}
+
+
+main_program{
+turtleSim();
+repeat(4){
+dash(100,5);
+right(90);
+}
+getClick();
+}
